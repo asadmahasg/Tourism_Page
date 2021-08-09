@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar{
+    position: absolute;
+}
+.max-height{
+    display: flex;
+    height: 50px;
+    width: 100vh;
+    margin-top: 20px;
+    align-items: center;
+}
+.back{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    color: grey;
+    position: absolute;
+    right: 0%;
+}
+.go-back{
+    width: 18px;
+    height: 20px;
+    color: grey;
+}
+.text{
+    margin-left: 5px;
+    font-size: 16px;
+}
+.menu-button{
+    margin-right: 40px;
+    list-style: none;
+    color: grey;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#last{
+    margin-right: 100px;
+}
+.background{
+    display: flex;
+}
+.left{
+    width: 30%;
+    height: 100vh;
+
+}
+.leftImage{
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+}
+.right{
+    background: white;
+    width: 70%;
+    right: 0%;
+    height: 100vh;
+    position: static;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+.infoSection{
+    display: flex;
+}
+.viewAllPhotos{
+    display: flex;
+}
+.preview{
+    width: 100px;
+    height: 100px;
+
+}
+.head-1{
+    display: inline-flex;
+    align-items: center;
+    
+}
+#head{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.line{
+    background: black;
+    width: 100px;
+    height: 3px;
+    margin-left: 20px;
+    display: inline-flex;
+}
