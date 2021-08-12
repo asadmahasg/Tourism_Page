@@ -113,6 +113,9 @@
     height: 15px;
     margin-top: 10px;
 }
+.viewAllPhotos:hover{
+    right: 10px;
+}
 .viewAllHead{
     text-transform: uppercase;
     font-size: 13px;
@@ -125,9 +128,10 @@
 .rightSection{
     padding-left: 50px;
     padding-right: 100px;
+    width: 450px;
 }
 .content{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
